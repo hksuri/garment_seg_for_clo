@@ -1,5 +1,5 @@
 # Garment Segmentation for Clothing Insulation Estimation
-Course Project for CS543 @ UIUC
+Course Project for CS543 @ UIUC. In collaboration with Nidia Bucarelli (UIUC) and Pallaw Kumar (UIUC).
 
 ## Introduction
 Individual occupant thermal comfort feedback is important for building control systems toward energy savings and occupant satisfaction, well-being, and productivity. To predict individual occupant thermal comfort in an automated way, data-driven approaches have been proposed. They are based on factors affecting thermal comfort. Among these factors, clothing insulation (one of the main factors affecting thermal comfort) is often ignored and assumed constant. This project aims to propose an approach for automated clothing insulation based on garment (clothing layer) segmentation and the percentage of the area covered and not covered by garments. The approach is based on a Mask-RCNN and a mathematical equation that relates thermal comfort with the percentage of the body that is covered by area and garment weights. The Mask-RCNN was trained on the DeepFashion dataset for garment instance segmentation. The experimental tests showed the proposed approach  could achieve comparable performance to that provided in existing tables. The proposed approach can be used to support occupant thermal comfort prediction in an automated way.
